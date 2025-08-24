@@ -7,8 +7,8 @@
 
 SoftwareSerial MCU(D2, D3);
 
-const char* ssid = "SHAD";
-const char* password = "home8521";
+const char* ssid = "****";
+const char* password = "*****";
 
 String token = "0000000000";
 String baseHost = "https://rateto-backend.onrender.com/ESP8266/";
