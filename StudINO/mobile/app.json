@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "StudINO",
+    "slug": "mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/booksIMG.png",
+    "scheme": "mobile",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#5884F4"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.shadman2354.mobile",
+      "versionCode": 4,
+      "userInterfaceStyle":"automatic"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/booksIMG.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/booksIMG.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#5884F4"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "bedbfa1a-4d89-4fc5-b55e-90df7ce27dd2"
+      }
+    }
+  }
+}
